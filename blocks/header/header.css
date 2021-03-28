@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  line-height: 28px;
+  /* margin: 0 0 56px; */
+  min-width: 1184px;
+  padding: 28px 48px 56px;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    min-width: 928px;
+    padding: 28px 48px 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    min-width: 720px;
+    padding: 28px 24px 48px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header {
+    min-width: 288px;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 16px 16px 48px;
+  }
+}
