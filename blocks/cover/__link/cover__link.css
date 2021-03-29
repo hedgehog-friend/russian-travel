@@ -30,24 +30,32 @@
 
 @media (max-width: 1024px) {
   .cover__link {
-   max-width: 1024px;
-   max-height: 640px;
+   /* max-width: 1024px;
+   max-height: 640px; */
    padding: 195px 232px;
   }
 }
 
 @media (max-width: 768px) {
   .cover__link {
-   max-width: 768px;
-   max-height: 480px;
+   /* max-width: 768px;
+   max-height: 480px; */
    padding: 115px 104px;
+  }
+}
+
+@media (max-width: 425px) {
+  .cover__link {
+   /* max-width: 320px;
+   max-height: 200px; */
+   padding: 33px 20px;
   }
 }
 
 @media (max-width: 320px) {
   .cover__link {
-   max-width: 320px;
-   max-height: 200px;
+   /* max-width: 320px;
+   max-height: 200px; */
    padding: 33px 16px;
   }
 }

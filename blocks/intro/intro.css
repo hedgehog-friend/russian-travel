@@ -3,15 +3,15 @@
   flex-direction: column;
   align-content: flex-start;
   justify-content: center;
-  min-width: 690px;
-  padding: 114px 442px 0 148px;
+  max-width: 690px;
+  padding: 114px 0 0 148px;
 
 }
 
 
 @media (max-width: 1024px) {
   .intro {
-    padding: 114px 286px 0 48px;
+    padding: 114px 0 0 48px;
   }
 }
 
@@ -25,6 +25,13 @@
   .intro {
     padding: 64px 16px 0;
     min-width: 288px;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro {
+    padding: 64px 16px 0;
+    /* min-width: 288px; */
   }
 }
 

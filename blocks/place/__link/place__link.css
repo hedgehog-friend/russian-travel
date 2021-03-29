@@ -11,3 +11,9 @@
   opacity: 0.8;
 }
 
+@media (min-width: 320px) and (max-width: 425px) {
+  .place__link {
+   font-size: 12px;
+   line-height: 12px;
+  }
+}

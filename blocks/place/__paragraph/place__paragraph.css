@@ -23,6 +23,14 @@
   }
 }
 
+@media (max-width: 425px) {
+  .place__paragraph {
+    gap: 12px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
 @media (max-width: 320px) {
   .place__paragraph {
     padding: 0 16px;

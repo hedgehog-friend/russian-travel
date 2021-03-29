@@ -7,14 +7,23 @@
   padding: 0;
 }
 
-.footer__links:last-child {
+/* .footer__links:last-child {
   margin: 0;
+} */
+
+@media (max-width: 425px) {
+  .footer__links {
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+  }
 }
 
 @media (max-width: 320px) {
   .footer__links {
    flex-direction: column;
    justify-content: flex-start;
-   align-items:flex-start;
+   align-items: flex-start;
   }
 }
+

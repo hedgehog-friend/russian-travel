@@ -9,6 +9,6 @@
   .header__logo {
     width: 142px;
     height: 42px;
-    object-fit: contain;
+    background-size:100% 100%;
   }
 }
