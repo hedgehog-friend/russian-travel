@@ -1,9 +1,8 @@
 .place__website {
   align-self: flex-end;
-
 }
 
-@media (max-width: 320px) {
+@media (max-width: 470px) {
   .place__website {
     padding: 0 16px;
   }

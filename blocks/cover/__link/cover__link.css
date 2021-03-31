@@ -1,14 +1,16 @@
 .cover__link {
   position: relative;
   text-decoration: none;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
   background-image: url(../../../images/cover-trains.jpg);
-  max-width: 1184px;
-  max-height: 740px;
   background-size: 100% 100%;
+  background-position: cover;
   color: inherit;
   z-index: 1;
-  padding: 312px 245px;
+  padding: 245px 0;
 }
 
 .cover__link::after {
@@ -30,24 +32,19 @@
 
 @media (max-width: 1024px) {
   .cover__link {
-   padding: 195px 232px;
+    padding: 195px 0;
   }
 }
 
 @media (max-width: 768px) {
   .cover__link {
-   padding: 115px 104px;
+    padding: 115px 0;
   }
 }
 
 @media (max-width: 425px) {
   .cover__link {
-   padding: 33px 16px;
+    padding: 33px 0;
   }
 }
 
-@media (max-width: 320px) {
-  .cover__link {
-   padding: 33px 16px;
-  }
-}

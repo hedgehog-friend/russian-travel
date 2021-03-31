@@ -1,0 +1,20 @@
+.intro__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 690px;
+  padding: 92px 0 0;
+}
+
+@media (max-width: 768px) {
+  .intro__container {
+    width: 100%;
+    padding: 88px 0 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .intro__container {
+    padding: 64px 0 0;
+  }
+}

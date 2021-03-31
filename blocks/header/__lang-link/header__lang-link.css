@@ -1,10 +1,6 @@
 .header__lang-link {
   margin: 0 18px 0 0;
   color: inherit;
-}
-
-.header__lang-link:last-child {
-  margin: 0;
   text-decoration: none;
 }
 

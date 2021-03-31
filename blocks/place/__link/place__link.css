@@ -3,17 +3,11 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
+  text-decoration-line: underline;
   color: inherit;
   transition: opacity 0.5s ease-in-out;
 }
 
 .place__link:hover {
   opacity: 0.8;
-}
-
-@media (min-width: 320px) and (max-width: 425px) {
-  .place__link {
-   font-size: 12px;
-   line-height: 12px;
-  }
 }

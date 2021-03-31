@@ -6,7 +6,7 @@
   padding: 92px 48px;
   justify-content: center;
   align-items: center;
-  /* object-fit: cover; */
+  max-width: 1280px;
 }
 
 @media (max-width: 1024px) {
@@ -27,15 +27,6 @@
 }
 
 @media (max-width: 425px) {
-  .photo-grid {
-    grid-template-columns: repeat(auto-fit, 200px);
-    grid-template-rows: repeat(auto-fit, 150px);
-    gap: 15px;
-    padding: 64px 5px;
-  }
-}
-
-@media (max-width: 360px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fit, 288px);
     grid-template-rows: repeat(auto-fit, 216px);

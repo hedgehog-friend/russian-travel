@@ -38,28 +38,15 @@
   }
 }
 
-@media (max-width: 425px) {
-  .place {
-    padding: 0 24px 73px;
-    gap: 20px 16px;
-  }
-}
-
-@media (max-width: 425px) {
-  .place:last-child {
-    padding: 0 24px 66px;
-  }
-}
-
-@media (max-width: 320px) {
+@media (max-width: 470px) {
   .place {
     padding: 0 0 73px;
-    grid-template-columns: 320px;
+    grid-template-columns: 1fr;
     gap: 32px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 470px) {
   .place:last-child {
     padding: 0 0 66px;
   }

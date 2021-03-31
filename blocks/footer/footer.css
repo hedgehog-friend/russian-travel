@@ -2,14 +2,31 @@
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  padding: 92px 48px 24px;
+  padding: 92px 0 24px;
+  width: 92.5%;
+  max-width: 1184px;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 1024px) {
   .footer {
-   flex-direction: column;
-   padding: 64px 0 24px 16px;
-   justify-content: flex-start;
-   align-items:flex-start;
+    max-width: 928px;
+    width: 90.625%;
   }
 }
+
+@media (max-width: 768px) {
+  .footer {
+    max-width: 720px;
+    width: 93.75%;
+  }
+}
+
+@media (max-width: 700px) {
+  .footer {
+    flex-direction: column;
+    padding: 64px 0 24px 16px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+

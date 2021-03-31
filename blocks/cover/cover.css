@@ -1,10 +1,5 @@
 .cover {
   color: #FFFFFF;
-  padding: 0 48px;
+  max-width: 1184px;
 }
 
-@media (max-width: 1024px) {
-  .cover {
-   padding: 0;
-  }
-}

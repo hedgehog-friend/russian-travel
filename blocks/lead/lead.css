@@ -4,26 +4,20 @@
   justify-content: start;
   align-items: center;
   max-width: 984px;
-  padding: 0 148px;
-}
+  width: 76.875%;
 
+}
 
 @media (max-width: 1024px) {
   .lead {
     max-width: 928px;
+    width: 90.625%;
   }
 }
 
 @media (max-width: 768px) {
   .lead {
-    max-width: 768px;
-    padding: 0;
+    width: 100%;
   }
 }
 
-@media (max-width: 320px) {
-  .lead {
-    max-width: 320px;
-    padding: 0;
-  }
-}
