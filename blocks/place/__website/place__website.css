@@ -2,7 +2,7 @@
   align-self: flex-end;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 680px) {
   .place__website {
     padding: 0 16px;
   }
