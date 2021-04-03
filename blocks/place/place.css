@@ -24,7 +24,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .place {
     padding: 0 24px 73px;
     grid-template-columns: 1fr 1.035fr;
@@ -32,13 +32,13 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .place:last-child {
     padding: 0 24px 90px;
   }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 650px) {
   .place {
     padding: 0 0 73px;
     grid-template-columns: 1fr;
@@ -46,7 +46,7 @@
   }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 650px) {
   .place:last-child {
     padding: 0 0 66px;
   }
